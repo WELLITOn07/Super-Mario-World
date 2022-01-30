@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Mario;
+    src: url(../fontes/Super-Mario-World.ttf);
+}
+@font-face {
+    font-family: Calluna;
+    src: url(../fontes/CallunaSans-Regular.otf) format('open-type');
+}
+
+:root {
+    /* -- PALETAS --*/
+    --cor0: #5aaccc54;
+    --cor1: #009FDD;
+    --cor2: #FED000;
+    --cor3: #FF0025;
+    --cor4: #48AF39;
+    /* -- FONTES --*/
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-paragrafos: Calluna, Georgia, 'Times New Roman', Times, serif; 
+    --font-mario: Mario, 'cursive';
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #FF0025;
+}
+}
+abbr {
+    text-decoration: none;
+}
+strong {
+    font-size: 1.1em;
+    color: var(--cor1);
+}
+body {
+ height: 100vh;
+ background: #009FDD url('../imagens/HD-fnd.jpg') center center no-repeat fixed;
+ background-size: cover;
+}
+header {
+    background-image: url('https://peukalo.files.wordpress.com/2011/04/smw-bg-clouds1.png') ;
+    background-size: 75ch;
+    max-width: 1025px;
+    margin: auto;
+    margin-bottom: -47px;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.24);
+}
+header h1 {
+    color: var(--cor3);
+    font-family: var(--font-mario);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 3em;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.699);
+}
+header p {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-bottom: 60px;
+    text-shadow: 0px 0px 2px black;
+}
+nav {
+    background-color: var(--cor2);
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 5px; 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.24);
+}
+nav a {
+    color: black;
+    font-family: var(--font-padrao);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.411);
+}
+nav a:hover {
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: -25px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 10px 10px 0px 0px ;
+}
+main abbr {
+    text-decoration: none;
+}
+main a {
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: underline;
+}
+div.video {
+    padding: 10%;
+    margin: 0px -20px 0px -20px;
+    padding-bottom: 56%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main img {
+    display: block;
+    margin: auto;
+    padding-bottom: 70px;
+}
+main h1 {
+    font-family: var(--font-mario);
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+}
+main h2 {
+    font-family: var(--font-mario);
+    font-weight: normal;
+    text-align: center;
+}
+main p {
+    font-family: var(--font-paragrafos);
+    font-weight: normal;
+    line-height: 25px;
+    text-align: center;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 20px;
+}
+aside {
+    background-color: var(--cor4);
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: -20px;
+    padding-bottom: 10px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.24);
+}
+aside img {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+aside h1 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.473);
+}
+aside ol {
+    list-style-position: inside;
+    background-color: white;
+    max-width: 800px;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    margin-bottom: 10px;
+    columns: 2;
+}
+aside ol > li {
+    padding: 5px;
+    text-align: justify;
+    text-decoration-line: overline;
+}
+footer abbr {
+    text-decoration: none;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #2A4A1F;
+    font-family: var(--font-padrao);
+    max-width: 1020px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.24);
+}
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer a:hover {
+    color: chartreuse;
+    transition-duration: 0.2s;
+}
+
+
