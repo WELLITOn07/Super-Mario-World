@@ -174,7 +174,7 @@ table {
     padding: 35px;
     max-width: 400px;
     max-height: 600px;
-    background-image: linear-gradient(rgba(231, 220, 220, 0.993), rgba(28, 77, 5, 0.74));
+    background-image: linear-gradient(rgba(18, 221, 11, 0.582), rgba(28, 77, 5, 0.959));
     border-radius: 10px;
     border-collapse: collapse;
     font-family: var(--font-paragrafos);
@@ -195,7 +195,7 @@ table tr {
     padding-left: 20px;
 }   
 table tr th {
-    padding: 5px;
+    padding: 10px;
     border: 1px solid black;
     font-weight: bold;
 }
