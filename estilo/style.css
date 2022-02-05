@@ -207,6 +207,9 @@ td.ano {
     padding-left: 5px;
     border: 1px solid black;
 }
+div#tabela {
+    overflow-x: auto;
+}
 footer abbr {
     text-decoration: none;
 }
